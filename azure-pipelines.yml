@@ -9,8 +9,10 @@ trigger:
 strategy:
   matrix:
     linux:
+      jdkversion: "1.11"
       imageName: 'ubuntu-latest'
     windows:
+      jdkversion: "1.10"
       imageName: 'windows-latest'
 
 
@@ -23,7 +25,7 @@ steps:
       mavenPomFile: 'pom.xml'
       mavenOptions: '-Xmx3072m'
       javaHomeOption: 'JDKVersion'
-      jdkVersionOption: '1.11'
+      jdkVersionOption: $(jdkversion)
       jdkArchitectureOption: 'x64'
       publishJUnitResults: true
       testResultsFiles: '**/surefire-reports/TEST-*.xml'
