@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/LearnDevOps7180/kumarsan-Devops2/_apis/build/status%2Fkumarsanwork.pipelines-java?branchName=main)](https://dev.azure.com/LearnDevOps7180/kumarsan-Devops2/_build/latest?definitionId=17&branchName=main)
 
 # Contributing
 
